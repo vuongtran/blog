@@ -6,9 +6,8 @@ import "./globals.css"
 import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 
-const title = "Next Dev Blog"
-const description =
-  "A Next.js markdown blog for developers using the new App Router."
+const title = "Vuong's blog 👋"
+const description = "Vuong's blog 👋."
 export const metadata = {
   metadataBase: process.env.NEXT_PUBLIC_SITE_URL,
   title: {
@@ -27,11 +26,11 @@ export const metadata = {
   ],
   authors: [
     {
-      name: "stevenspads",
-      url: "https://github.com/stevenspads",
+      name: "vuongtran",
+      url: "https://github.com/vuongtran",
     },
   ],
-  creator: "stevenspads",
+  creator: "vuongtran",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
@@ -43,13 +42,14 @@ export const metadata = {
     title,
     description,
     siteName: title,
+    images: [`${process.env.NEXT_PUBLIC_SITE_URL}/og-image.jpg`],
   },
   twitter: {
     card: "summary_large_image",
     title,
     description,
     images: [`${process.env.NEXT_PUBLIC_SITE_URL}/og-image.jpg`],
-    creator: "@stevenspads",
+    creator: "@vuong",
   },
   icons: {
     icon: "/favicon.ico",

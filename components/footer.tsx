@@ -3,7 +3,7 @@
 
 export function Footer() {
   return (
-    <footer className="mt-24 flex justify-center">
+    <footer className="mt-24 flex justify-start">
       <div className="space-y-12 pt-16">
         {/* <nav className="space-x-6 text-center text-sm font-medium">
           <Link href="/">Home</Link>
@@ -23,7 +23,7 @@ export function Footer() {
         </div> */}
 
         <div className="text-center">
-          <p className="text-sm text-gray-500">&copy; 2024</p>
+          <p className="text-sm text-gray-500">&copy; 2024. Build with ❤️ 🔥</p>
         </div>
       </div>
     </footer>
